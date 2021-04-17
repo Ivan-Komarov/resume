@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*контент не растягивал контейнер*/
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color:#f5f7fa;
+	padding: 20px;
+
+}
+.wraper{
+	background-color: #fff;
+	display: flex;
+	justify-content: row;
+}
+.sidebar{
+	background-color: #1e2939;
+	width: 370px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	
+}
+.my_contact, .tech_skills, .soft_skills{
+	margin-left: 40px;
+	margin-top:60px;
+	margin-right: 40px;
+}
+
+.my_contact a{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #878d95;
+}
+.leter{
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 24px;
+	margin-right: 10px;
+}
+
+.my_photo{
+	width: 370px;
+
+}
+.about_me{
+	padding: 110px 90px;
+}
+.tech_skills h3, .soft_skills h3, .my_contact h3{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #ffffff;
+	margin-top: 55px;
+	margin-bottom: 20px;
+}
+.tech_skills li, .soft_skills li{
+	color: #ff6b08;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 15px;
+}
+.text_ul{
+	color: #ffffff;
+}
+/*центральна частина*/
+.about_me{
+	margin-left: 90px;
+}
+.my_proffesion{
+	margin-bottom: 10px;
+}
+.my_proffesion h2{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.my_proffesion h1{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 89px;
+	margin-bottom: 20px;
+	}
+.my_proffesion p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.zagolovok{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-bottom: 20px;
+	padding-top: 55px;
+}
+.project li{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.project a{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 5px;
+	color: black;
+	text-decoration: none;
+
+}
+.dots, .word{
+	font-weight: 400;
+}
+.pod_zagolovok{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+.orange{
+	color: #ff6b08;
+}
+.date{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #aeaeae;
+
+	
+}
+.bracket{
+	color: black;
+	font-weight: 500;
+	font-size: 14px;
+}
+.spisok li{
+/*margin-top: 10px;*/
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.edu{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-top: 55px;
+}
+.manage{
+	padding-bottom: 15px;
+}
